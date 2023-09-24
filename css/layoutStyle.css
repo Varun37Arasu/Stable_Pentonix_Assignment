@@ -8,6 +8,7 @@ img, object, embed, video {
 }
 /* IE 6 does not support max-width so default to width 100% */
 .ie6 img {
+	/* fill:#FFCC4D; */
 	width:100%;
 }
 

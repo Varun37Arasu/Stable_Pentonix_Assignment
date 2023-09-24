@@ -852,10 +852,10 @@ background-size: cover;
 
 .no-touch #clsMnuBtn:hover:not(.clsMnuBtnDis) {
     position: absolute;
-    width: 50px;
-    height: 66px;
+    width: 55px;
+    height: 70px;
     left: 25px;
-    top: 590px;
+    top: 585px;
     background: url("../media/images/new/menubtn-hover.svg") no-repeat;
     background-position: 0px 0px;
     background-size: auto;
@@ -867,7 +867,7 @@ background-size: cover;
     background-position: center;
     cursor: pointer;
     background-color: #000;
-    transition: 0.1s ease;
+    /* transition: 0.1s ease; */
     z-index: 1;
 }
 
@@ -1637,9 +1637,13 @@ span.instructions {
     position: absolute;
     bottom: 2px;
     /* right: 20px; */
-    left: 88px;
+    left: 79px;
     border-radius: 50px;
     z-index: 100000;
+}
+.lineClassforFooterLeft{
+    width: 3px;
+
 }
 .lineClassforFooterRight{
     left: 580px;

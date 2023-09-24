@@ -177,7 +177,7 @@
       .sectionContentArea {
         padding: 30px;
         height: 448px;
-        color: #000 !important;
+        color: #565050 !important;
         width: 91%;
       }
 
@@ -219,7 +219,7 @@
         border-radius: 5px;
         width: 93%;
         position: relative;
-        padding: 10px;
+        padding: 5px;
       }
 
       .error1 .error1_inner {
@@ -231,11 +231,20 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: 100%;
+        margin-top: 5px;
+      }
+
+      .error1_inner > p{
+        margin-left: 15px;
+        color: #565050;
+        font-size: 16px;
+
       }
 
       .error1 .error1_inner img {
-        width: 35px;
-        height: 35px;
+        width: 60px;
+        height: 60px;
         padding: 6px;
       }
 
@@ -428,7 +437,15 @@
       #error2.error1 {
         width: 98%;
       }
-
+      .error1 {
+        visibility: inherit;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+      }
       .content2 .sectionContentAreainner {
         margin: 40px 0px 0px 50px;
         width: 85%;
@@ -566,7 +583,10 @@
                 </ul>
                 <div id="error1" class="error1">
                   <div class="error1_inner">
-                    <img src="pages/images/Topic01/T01P12/warning.svg" />
+                    <img src="../../media/images/new/Warning.png" />
+                    <!-- <div class="warningSign">
+                      
+                    </div> -->
                     <p>
                       Reduction in use of unnecessary antibiotics is a national
                       and international goal.

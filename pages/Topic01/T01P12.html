@@ -161,40 +161,46 @@
       margin: 0px;
       padding: 0px;
       list-style: none;
-      width: 100%
+      width: 100%;
+      color:#565050;
     }
 
 
     .error1 {
-    margin: 30px auto 0px;
-    border: solid 2px #000;
-    border-radius: 23px;
-    width: 90%;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
+        margin: 28px 18px 4px;
+        border: solid 2px #020202;
+        border-radius: 5px;
+        width: 93%;
+        position: relative;
+        padding: 5px;
+      }
 
-    .error1 .error1_inner {
-      position: relative;
-      padding: 15px 0px 15px 0px;
-      color: #000;
-      font-size: 14px;
-      line-height: 22px;
-      font-weight: bold;
-      padding-left: 50px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
+      .error1 .error1_inner {
+        position: relative;
+        color: #3a3737;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /* margin-top: 5px; */
+      }
 
-    .error1 .error1_inner img {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      left: 10px;
-      top: 17px;
-    }
+      .error1_inner > p{
+        margin-left: 15px;
+        color: #565050;
+        font-size: 16px;
+
+      }
+
+      .error1 .error1_inner img {
+        width: 60px;
+        height: 60px;
+        padding: 6px;
+      }
+
 
     .topImgtxt {
       background: rgba(0, 0, 0, 0.1);
@@ -406,6 +412,17 @@
       font-weight: 600;
       font-size: 18px;
     }
+
+    .error1 {
+        visibility: inherit;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 30px;
+      }
   </style>
 
 </head>
@@ -445,7 +462,7 @@
               </ul>
               <div id="error1" class="error1 ">
                 <div class="error1_inner">
-                  <img src="pages/images/Topic01/T01P12/warning.svg"> <span style="margin-left: 12px;">
+                  <img src="../../media/images/new/Warning.png"> <span style="margin-left: 12px;">
                     <p>The younger the gestation, the higher the risk for infection and an adverse outcome.</p>
                   </span>
                 </div>
