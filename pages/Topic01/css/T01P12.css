@@ -2940,9 +2940,9 @@ return_case_button_vital:hover {
   width: 31%;
   background: #e0f6fb;
   /* box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75); */
-  -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 9px -4px rgba(0, 0, 0, 0.75);
-  border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px; */
   -webkit-border-bottom-left-radius: 7px;
   -moz-border-bottom-left-radius: 7px;
   border-radius: 30px;
