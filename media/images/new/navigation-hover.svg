@@ -3,8 +3,8 @@
 <svg version="1.1" id="Layer_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 130 76" style="enable-background:new 0 0 130 76;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#fff;stroke:#fff;stroke-width:1;}
-	.st1{enable-background:new;fill:#fff;stroke:#fff;stroke-width:1;}
+	.st0{fill:#fff;stroke:#fff;stroke-width:0;}
+	.st1{enable-background:new;fill:#fff;stroke:#fff;stroke-width:0;}
 </style>
 <g id="Group_50" transform="translate(42.109 2)">
 	<g>
@@ -16,7 +16,7 @@
 		</g>
 	</g>
 </g>
-<g class="st1">
+<g class="st1" transform="scale(0.95) translate(3,5)">
 	<path d="M12.8,67.6L6.6,56.1v11.2c0,0.2-0.1,0.3-0.3,0.3H3.5c-0.2,0-0.3-0.1-0.3-0.3V50.9c0-0.2,0.1-0.3,0.3-0.3h3.2
 		c0.2,0,0.3,0.1,0.4,0.2l6.2,11.3V50.9c0-0.2,0.1-0.3,0.3-0.3h2.8c0.2,0,0.3,0.1,0.3,0.3v16.5c0,0.2-0.1,0.3-0.3,0.3h-3.2
 		C13.1,67.8,12.9,67.7,12.8,67.6z"/>

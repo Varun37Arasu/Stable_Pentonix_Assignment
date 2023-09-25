@@ -64,6 +64,7 @@
         top: 20px;
         opacity: 1;
         font-weight: 600;
+        color: #05222e;
       }
 
       @-webkit-keyframes reducetime {
@@ -153,8 +154,8 @@
         left: 20px;
         top: 16px;
         font-size: 16px;
-        font-family: OpenSansRegular;
-        font-style: initial;
+        font-family: Greycliff_CF;
+        font-style: normal;
       }
 
       .ClsTab {
@@ -229,8 +230,8 @@
         left: 68px;
         background: #fff;
         height: 50px;
-        box-shadow: 0 0 5px #aaa;
-        border-radius: 9px;
+        /* box-shadow: 0 0 5px #aaa; */
+        border-radius: 25px;
         padding: 10px;
         z-index: 9;
         opacity: 0;
@@ -239,6 +240,7 @@
 
       .clsText > p {
         margin: 0;
+        font-family: OpenSansRegular;
       }
 
       div#introBox2 {
@@ -250,8 +252,7 @@
         background: #fff;
         height: 85px;
         /* border-radius: 5px; */
-        background: url("../../media/images/new/Branch3.png")
-          no-repeat;
+        background: url("../../media/images/new/Branch3.png") no-repeat;
         background-size: contain;
         background-position: top;
         opacity: 0;
@@ -1127,7 +1128,7 @@
       .bottom_txt {
         position: relative;
         top: 210px;
-        background: #f2f2f2;
+        background: #ffffff;
         padding: 10px;
         text-align: center;
         line-height: 23px;
@@ -1297,8 +1298,9 @@
       }
       #idText28 > b > a {
         text-decoration: none;
-        color: #000;
-        font-weight: bolder;
+        color: #05222e;
+        font-family: "Greycliff_CF";
+        font-weight: 600;
       }
       #clsSub3 {
         background: url("pages/images/Topic01/T01P13/T01P13_04.png") no-repeat;
@@ -1320,7 +1322,9 @@
         z-index: 99999;
       }
 
-      .clickToContinue ,.expandImgTxtRight, .clickToEnlarge{
+      .clickToContinue,
+      .expandImgTxtRight,
+      .clickToEnlarge {
         text-align: center;
       }
     </style>
@@ -1339,8 +1343,7 @@
           event: "",
           show: "",
           hide: "",
-          transcript:
-            "Infants may become infected with bacteria, viruses,fungi, or other pathogens. The two most common bacterial organisms that cause early-onset sepsis are Group B Streptococcus, which is a Gram-positive organism, and Escherichia coli, which is a Gram-negative organism.<br> Click Next to continue. ",
+          transcript:"Infants may become infected with bacteria, viruses,fungi, or other pathogens. The two most common bacterial organisms that cause early-onset sepsis are Group B Streptococcus, which is a Gram-positive organism, and Escherichia coli, which is a Gram-negative organism.<br/> Click Next to continue."
         },
 
         {
@@ -1484,7 +1487,7 @@
               target: ".ClsImage0",
               duration: "0",
               activity: {
-                height: "276px",
+                height: "265px",
               },
             },
             {
@@ -1509,7 +1512,7 @@
               target: ".ClsImage1",
               duration: "0",
               activity: {
-                height: "276px",
+                height: "265px",
               },
             },
             {
@@ -1754,7 +1757,7 @@
           <div
             class="clsText"
             style="
-              padding: 9px 11px;
+              padding:15px;
               left: 0;
               top: -1px;
               width: 354px;
@@ -1775,51 +1778,49 @@
             <div class="clsSubImage" id="clsSubImage0">
               <div class="subFirstImage" id="clsSub0"></div>
               <div class="imageDesc">
-                <strong
-                  >Group B <em>Streptococcus</em><br />
-                  (bacteria)</strong
-                >
+                Group B Streptococcus<br />
+                  (bacteria)
+                
               </div>
               <div class="bottom_txt">
                 <a
                   href="javascript:void(0)"
                   class="glossarytag"
                   glossaryTitle="Gram-positive organism"
-                  textDesc="Gram staining refers to a bacterial staining procedure developed by a Danish bacteriologist, Hans Christian Gram in 1883. Gram staining is the first step in identifying an organism. The procedure allows differentiation of bacteria into one of two categories – positive or negative. The determination is based on color change. Organisms that stain a blue/purple color (because they retain the stain applied to them) are Gram-positive bacteria. Organisms that stain a pink/reddish color(because they lose their color when the destaining step is performed) are Gram-negative bacteria."
+                  textDesc="Gram staining refers to a bacterial staining procedure developed by a Danish bacteriologist, Hans Christian Gram in 1883. Gram staining is the first step in identifying an organism. The procedure allows differentiation of bacteria into one of two categories – positive or negative. The determination is based on color change. Organisms that stain a blue/purple color (because they retain the stain applied to them) are Gram-positive bacteria. Organisms that stain a pink/reddish color (because they lose their color when the destaining step is performed) are Gram-negative bacteria."
                 >
                   Gram-positive organism</a
                 >
               </div>
-              <div class="clickToContinue expandImgTxtRight clickToEnlarge">
+              <!-- <div class="clickToContinue expandImgTxtRight clickToEnlarge">
                 Click to enlarge image
-              </div>
-              <a
+              </div> -->
+              <!-- <a
                 href="javascript:void(0);"
                 title="Click to enlarge image"
                 class="small_expand zoom_btn"
                 id="clickImg0"
                 >&nbsp;</a
-              >
+              > -->
             </div>
           </div>
           <div class="ClsImage1">
             <div class="clsSubImage" id="clsSubImage1">
               <div class="subFirstImage" id="clsSub1"></div>
               <div class="imageDesc">
-                <strong><em>Escherichia coli</em> <br />(bacteria)</strong>
+                Escherichia coli <br />(bacteria)
               </div>
               <div class="bottom_txt">
                 <a
                   href="javascript:void(0)"
                   class="glossarytag"
                   glossaryTitle="Gram-negative organism"
-                  textDesc="Gram staining refers to a bacterial staining procedure developed by a Danish bacteriologist, Hans Christian Gram in 1883. Gram staining is the first step in identifying an organism. The procedure allows differentiation of bacteria into one of two categories – positive or negative. The determination is based on color change. Organisms that stain a blue/purple color (because they retain the stain applied to them) are Gram-positive bacteria. Organisms that stain a pink/reddish color(because they lose their color when the destaining step is performed) are Gram-negative bacteria."
-                >
-                  Gram-negative organism</a
+                  textDesc="Gram staining refers to a bacterial staining procedure developed by a Danish bacteriologist, Hans Christian Gram in 1883. Gram staining is the first step in identifying an organism. The procedure allows differentiation of bacteria into one of two categories – positive or negative. The determination is based on color change. Organisms that stain a blue/purple color (because they retain the stain applied to them) are Gram-positive bacteria. Organisms that stain a pink/reddish color (because they lose their color when the destaining step is performed) are Gram-negative bacteria."
+                >Gram-negative organism</a
                 >
               </div>
               <!-- <div class="subFirstImage" id="clsImg0"></div> -->
-              <div class="clickToContinue expandImgTxtRight clickToEnlarge">
+              <!-- <div class="clickToContinue expandImgTxtRight clickToEnlarge">
                 Click to enlarge image
               </div>
               <a
@@ -1828,7 +1829,7 @@
                 class="small_expand zoom_btn"
                 id="clickImg1"
                 >&nbsp;</a
-              >
+              > -->
             </div>
           </div>
           <div class="ClsImage2" style="height: 230px">
@@ -1838,7 +1839,7 @@
                 <strong>Herpes simplex <br />(virus)</strong>
               </div>
               <!-- <div class="subFirstImage" id="clsImg0"></div> -->
-              <div class="clickToContinue expandImgTxtRight clickToEnlarge">
+              <!-- <div class="clickToContinue expandImgTxtRight clickToEnlarge">
                 Click to enlarge image
               </div>
               <a
@@ -1847,7 +1848,7 @@
                 class="small_expand zoom_btn"
                 id="clickImg2"
                 >&nbsp;</a
-              >
+              > -->
             </div>
           </div>
           <div class="ClsImage3">
@@ -1860,7 +1861,7 @@
                 </strong>
               </div>
               <!-- <div class="subFirstImage" id="clsImg0"></div> -->
-              <div class="clickToContinue expandImgTxtRight clickToEnlarge">
+              <!-- <div class="clickToContinue expandImgTxtRight clickToEnlarge">
                 Click to enlarge image
               </div>
               <a
@@ -1869,7 +1870,7 @@
                 class="small_expand zoom_btn"
                 id="clickImg3"
                 >&nbsp;</a
-              >
+              > -->
             </div>
           </div>
           <!-- <div class="ClsImage3">

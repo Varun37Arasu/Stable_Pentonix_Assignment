@@ -135,14 +135,15 @@
         animation-name: slideInUp;
       }
 
+      /*#topImgCnt1{background: url(pages/images/Topic01/T01P12/preterm-septic-infant-small.png) no-repeat top center; background-size:cover; height:100%; width:100%; border-radius:5px 0px 0px 5px}*/
       #topImgCnt1 {
-        background: url(pages/images/Topic01/T01P12/Slide14Image.jpg) no-repeat;
-        background-size: cover;
+        /* background: url(pages/images/Topic01/T01P12/preterm-septic-infant-large.png) no-repeat; */
+        background: url(pages/images/Topic01/T01P12/image_01.png) no-repeat;
+        background-size: contain;
         height: 100%;
         width: 100%;
         border-radius: 5px 0px 0px 5px;
-        /* background-position: center; */
-        border-radius: 30px;
+        background-position: 80%;
       }
 
       #imgPopup1 {
@@ -158,24 +159,62 @@
         background: transparent !important;
       }
 
+      .sectionLeft {
+        width: 384px;
+        background: #fff;
+        height: 100%;
+        width: 30%;
+        position: relative;
+        left: 10px;
+      }
+
+      .sectionRight {
+        width: 670px;
+        left: 384px;
+        width: 70%;
+      }
+
+      .sectionContentArea {
+        padding: 5px 15px;
+        height: 448px;
+        color: #565050 !important;
+        width: 91%;
+      }
+
       .iconlist {
         margin: 0px;
         padding: 0px;
         list-style: none;
         width: 100%;
-        color: #565050;
+      }
+
+      .iconlist li img {
+        /* position: absolute; */
+        /* width: 96px; */
+        height: 90px;
+        left: 0px;
+        top: 0px;
+      }
+
+      .iconlist img {
+        position: relative;
       }
 
       .iconlist li {
         visibility: inherit;
         opacity: 1;
-        width: 95%;
-        margin: auto;
-        align-items: center;
-        text-align: justify;
         display: flex;
         gap: 15px;
-        padding: 5px;
+        padding: 10px;
+      }
+
+      .iconlist p {
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+
+        text-align: justify;
+        line-height: 1.2;
       }
 
       .error1 {
@@ -184,26 +223,26 @@
         border-radius: 5px;
         width: 93%;
         position: relative;
-        padding: 5px;
+        /* padding: 5px; */
       }
 
       .error1 .error1_inner {
         position: relative;
-        color: #3a3737;
-        font-size: 16px;
+        color: #000;
+        font-size: 14px;
         line-height: 22px;
         font-weight: bold;
         display: flex;
         flex-direction: row;
         align-items: center;
         width: 100%;
-        /* margin-top: 5px; */
+        margin-top: 5px;
       }
 
       .error1_inner > p {
         margin-left: 15px;
         color: #565050;
-        /* font-size: 16px; */
+        font-size: 16px;
       }
 
       .error1 .error1_inner img {
@@ -215,47 +254,55 @@
       .topImgtxt {
         background: rgba(0, 0, 0, 0.1);
         position: absolute;
-        bottom: 0;
+        bottom: 0px;
         padding: 10px;
         color: #000;
         font-size: 14px;
         line-height: 22px;
         font-weight: bold;
-        visibility: hidden;
       }
 
       .content2 .sectionLeft {
-        width: 284px;
+        /* width: 284px; */
         background: #fff;
         border-radius: 30px;
-        box-shadow: 0px 1px 2px 3px #ccc;
+        /* box-shadow: 0px 1px 2px 3px #ccc; */
         overflow: hidden;
         padding: 5px;
         position: absolute;
         z-index: 999;
-        height: 91%;
-        top: 3%;
+        height: 97%;
+        /* top: 3% */
+        left: 10px;
       }
 
-      .content2 #topImgCnt2 {
-        background: url(pages/images/Topic01/T01P12/preterm-septic-infant-small.png)
+      .content2 .sectionRight {
+        width: 770px;
+        left: 330px;
+      }
+
+      #topImgCnt2 {
+        background:url(pages/images/Topic01/T01P12/Slide14Image.jpg)
           no-repeat center;
         background-size: cover;
         width: 100%;
         height: 100%;
         top: -2px;
-        right: 2.5px;
+        right: 10.5px;
         display: block;
+        border-radius: 30px;
       }
 
       #topImgCnt3 {
-        background: url(pages/images/Topic01/T01P12/Blood-culture-small.png)
+        background: url("pages/images/Topic01/T01P12/Screen15BottomImage1.jpg")
           no-repeat center;
-        background-position-y: -25px;
         background-size: cover;
         width: 100%;
-        right: 2.5px;
         height: 100%;
+        top: -2px;
+        right: 10.5px;
+        display: block;
+        border-radius: 30px;
       }
 
       .topImgbox1 {
@@ -264,7 +311,8 @@
         width: 100%;
         height: 222px;
         top: 5px;
-        width: 278px;
+        border-radius: 30px;
+        /* width: 278px */
       }
 
       .topImgbox2 {
@@ -273,14 +321,15 @@
         width: 100%;
         height: 222px;
         top: 235px;
-        width: 278px;
+        border-radius: 30px;
+        /* width: 278px */
       }
 
       .sectionLeftBox {
         position: relative;
         height: 100%;
         padding: 5px;
-        width: 274px;
+        width: 100%;
       }
 
       #topImgCnt2 .small_expand {
@@ -288,15 +337,15 @@
       }
 
       #imgPopup2 {
-        background: url(pages/images/Topic01/T01P12/preterm-septic-infant-large.png)
-          no-repeat;
+        background: url(pages/images/Topic01/T01P12/Slide14Image.jpg)
+          no-repeat center;
         background-size: 100% 100%;
         height: 377px;
       }
 
       #imgPopup3 {
-        background: url(pages/images/Topic01/T01P12/Blood-culture-large.png)
-          no-repeat;
+        background:  url("pages/images/Topic01/T01P12/Screen15BottomImage1.jpg")
+          no-repeat center;
         background-size: 100% 100%;
       }
 
@@ -306,7 +355,15 @@
         height: 100%;
       }
 
-      .content2 .sectionRight .sectionContentAreainner {
+      .content2 .sectionRight .sectionContentArea {
+        height: 87%;
+        /* margin-top: 30px; */
+        margin-left: 0;
+        left: 0px;
+        border-radius: 30px;
+      }
+
+      .sectionContentAreainner {
         width: 80%;
         margin: 20px 0px 0px 50px;
       }
@@ -338,11 +395,12 @@
       #sectionRight2,
       #contenttext1,
       #contenttext2,
+      .sectionLeftBox,
       #error2,
       #topImgtxt1 {
         visibility: hidden;
         opacity: 0;
-
+        border-radius: 30px;
         align-items: center;
         justify-content: center;
       }
@@ -351,7 +409,7 @@
       .clickToEnlarge {
         visible: hidden;
         opacity: 0;
-        display: block;
+        /* display: block; */
       }
 
       .modal.popupimg1 .modalContent {
@@ -376,12 +434,21 @@
       }
 
       .small_expand {
-        bottom: 18px;
-        right: 9px;
+        bottom: 12px;
       }
 
       #error2.error1 {
         width: 98%;
+      }
+
+      .error1 {
+        visibility: inherit;
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
       }
 
       .content2 .sectionContentAreainner {
@@ -394,109 +461,149 @@
         bottom: 15px;
       }
 
-      .pg-pageContent {
-        height: 97% !important;
+      .iconlist span {
+        width: 243%;
+        text-align: left;
+        vertical-align: top;
+        display: inline;
+        margin-top: 4px;
       }
 
-      .fix_closepopover {
-        bottom: 13px;
-        right: 15px;
+      #sectionRight2 {
+        background-color: #ffffff;
+        width: 68%;
       }
 
-      .iconlist li img {
-        /* position: absolute; */
-        /* width: 96px; */
-        height: 90px;
-        left: 0px;
-        top: 0px;
+      .boxInst {
+        position: absolute;
+        top: 464px;
+        left: 864px;
+        width: 175px;
+        height: 30px;
+        display: none;
+        z-index: 99999;
       }
 
-      .iconlist img {
-        position: relative;
+      .padding-value {
+        /* padding-left: 93px; */
       }
 
-      .iconlist p {
-        font-weight: 600;
-        font-size: 16px;
-    /* line-height: 1.5; */
-      }
-
-      .error1 {
-        visibility: inherit;
-        opacity: 1;
+      .sectionContent {
+        background-color: rgb(255, 255, 255);
+        width: 95%;
         display: flex;
-        justify-content: space-between;
-        /* width: 87%; */
-        margin: auto;
-        margin-top: 10px;
-        border-radius: 30px;
       }
+
+      .newTranscript > li {
+        list-style: none;
+      }
+      #popover{
+      display: none;
+    }
     </style>
   </head>
 
   <body>
     <div class="pg-pageContent" UNSELECTABLE="on">
       <div id="TabPopup5" class="clsTabPopup">
-        <div id="content1">
+        <div id="content2" class="content2">
           <div class="sectionContent">
             <div class="sectionLeft">
-              <div class="topImgCnt" id="topImgCnt1">
-                <!-- <img src="pages/images/Topic01/T01P12/Picture2.jpg" alt=""> -->
-                <!-- <div class="topImgtxt" id="topImgtxt1">
-                Compared to term infants, the preterm infant's immune system is
-                even more immature.</div> -->
-                <a
-                  href="javascript:void(0);"
-                  title="Click to enlarge image"
-                  class="small_expand zoom_btn"
-                  click_id="1"
-                  >&nbsp;</a
-                >
+              <div class="sectionLeftBox">
+                <div id="topImgbox1" class="topImgbox1">
+                  <div class="topImgboxinner">
+                    <div class="topImgCnt" id="topImgCnt2">
+                      <!-- <div
+                      id="popover"
+                        class="popover left-arrow clickToEnlarge"
+                        style="display: none;opacity: 0;"
+                      >
+                        <div class="arrow" style="top: 50%"></div>
+                        <div class="popover-content">
+                          Click to enlarge image.
+                        </div>
+                      </div>
+                      <a
+                        href="javascript:void(0);"
+                        title="Click to enlarge image"
+                        class="small_expand zoom_btn"
+                        click_id="2"
+                        >&nbsp;</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
+                <div id="topImgbox2" class="topImgbox2">
+                  <div class="topImgboxinner">
+                    <div class="topImgCnt" id="topImgCnt3">
+                      <!-- <div
+                        class="popover left-arrow clickToEnlarge"
+                        style="margin-bottom: 20px;      display: none;
+                        "
+                      >
+                        <div class="arrow" style="top: 50%"></div>
+                        <div class="popover-content">
+                          Click to enlarge image.
+                        </div>
+                      </div>
+                      <a
+                        style="bottom: 30px"
+                        href="javascript:void(0);"
+                        title="Click to enlarge image"
+                        class="small_expand zoom_btn"
+                        click_id="3"
+                        >&nbsp;</a
+                      > -->
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="sectionRight">
+            <div id="sectionRight2" class="sectionRight">
               <div class="sectionContentArea">
                 <ul class="iconlist">
                   <li id="iconlist_item1" class="iconlist_item1">
                     <img src="pages/images/Topic01/T01P12/defense.svg" />
-                    <p>The
-                      body has a unique system of defense designed to protect against infections and foreign substances.
-                      Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and
-                      eliminate the invading organism.</p>
+                    <span class="padding-value">
+                      <p>
+                        Although
+                        reduction in the use of unnecessary antibiotics is a national and international goal, it is common
+                        to start antibiotics when neonates have clinical signs of sepsis, while awaiting laboratory
+                        testing and resolution of the clinical signs.
+                      </p>
+                    </span>
                   </li>
                   <li id="iconlist_item2" class="iconlist_item2">
                     <img src="pages/images/Topic01/T01P12/infectious.svg" />
-                    <p>Neonates have an immature immune system and an
-                      impaired ability to effectively eliminate invading organisms.</p>
-                  </li>
-                  <li id="iconlist_item3" class="iconlist_item2">
-                    <img src="pages/images/Topic01/T01P12/immune-system.svg" />
-                    <p> Preterm infants are at an even greater
-                      disadvantage than term infants. The younger the gestation, the higher the risk for infection and an
-                      adverse outcome.</p>
+                    <span class="padding-value">
+                      <p>Base the decision to start antibiotics on careful evaluation of risk
+                        factors for infection and the infant’s clinical condition.
+                      </p>
+                    </span>
                   </li>
                 </ul>
                 <div id="error1" class="error1">
                   <div class="error1_inner">
                     <img src="../../media/images/new/Warning.png" />
-                    <span style="margin-left: 12px">
-                      <p style="font-size: 16px;">The
-                        younger the gestation, the higher the risk for infection and an adverse outcome.
-                      </p>
-                    </span>
+                    <!-- <div class="warningSign">
+                      
+                    </div> -->
+                    <p>
+                      Reduction in the use of unnecessary antibiotics is a national
+                      and international goal.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         <div class="modal" id="case_study_popup">
           <div class="modalContent" unselectable="on">
             <div class="modalinner">
               <div class="modalTxtImg" unselectable="on"></div>
               <a
-                class="closepopup zoom_close_btn fix_closepopover"
+                class="closepopup zoom_close_btn"
                 href="javascript:void(0)"
                 title="Click to Close"
               ></a>
@@ -549,84 +656,103 @@
           time: "0",
           carry: "",
           event: "",
-          show: "",
+          show: "#content2",
           hide: "",
           transcript:
-            "The body has a unique system of defense designed to protect against infections and foreign substances. Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and eliminate the invading organism. Neonates have an immature immune system and an impaired ability to effectively eliminate invading organisms. Preterm infants are at an even greater disadvantage than term infants. The younger the gestation, the higher the risk for infection and an adverse outcome.<br/> Click Next to continue.<br/> Click Next to continue."
+          "That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
+        },
+
+        {
+          time: "1",
+          carry: "",
+          event: "",
+          show: ".sectionLeftBox,#topImgbox1",
+          hide: "",
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
         },
         {
-          time: "0",
+          time: "2",
+          carry: "",
+          event: "",
+          show: "#topImgbox2",
+          hide: "",
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
+        },
+
+        {
+          time: "4",
+          carry: "",
+          event: "",
+          show: "#sectionRight2",
+          hide: "",
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
+        },
+        {
+          time: "12",
           carry: "",
           event: "",
           show: "#iconlist_item1",
           hide: "",
-          // Transcript Box - Slide 14
-          transcript:"The body has a unique system of defense designed to protect against infections and foreign substances. Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and eliminate the invading organism. Neonates have an immature immune system and an impaired ability to effectively eliminate invading organisms. Preterm infants are at an even greater disadvantage than term infants. The younger the gestation, the higher the risk for infection and an adverse outcome.<br/> Click Next to continue."
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
         },
         {
-          time: "17",
+          time: "22",
           carry: "",
           event: "",
           show: "#iconlist_item2",
           hide: "",
-          transcript:"The body has a unique system of defense designed to protect against infections and foreign substances. Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and eliminate the invading organism. Neonates have an immature immune system and an impaired ability to effectively eliminate invading organisms. Preterm infants are at an even greater disadvantage than term infants. The younger the gestation, the higher the risk for infection and an adverse outcome.<br/> Click Next to continue."
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
         },
         {
-          time: "29",
+          time: "30",
           carry: "",
           event: "",
           show: "#iconlist_item3",
           hide: "",
-          transcript:"The body has a unique system of defense designed to protect against infections and foreign substances. Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and eliminate the invading organism. Neonates have an immature immune system and an impaired ability to effectively eliminate invading organisms. Preterm infants are at an even greater disadvantage than term infants. The younger the gestation, the higher the risk for infection and an adverse outcome.<br/> Click Next to continue."
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
         },
         {
-          time: "27",
+          time: "36",
           carry: "",
           event: "",
           show: "#topImgtxt1",
           hide: "",
-          transcript:"The body has a unique system of defense designed to protect against infections and foreign substances. Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and eliminate the invading organism. Neonates have an immature immune system and an impaired ability to effectively eliminate invading organisms. Preterm infants are at an even greater disadvantage than term infants. The younger the gestation, the higher the risk for infection and an adverse outcome.<br/> Click Next to continue.",
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition.",
           animation: [
             {
               target: ".small_expand",
               duration: "",
               activity: {
-                display: "none",
+                display: "block",
               },
             },
           ],
         },
         {
-          time: "32",
+          time: "40",
           carry: "",
           event: "",
           show: "#error1",
           hide: "",
-          transcript:"The body has a unique system of defense designed to protect against infections and foreign substances. Exposure to an infectious agent activates a complex series of responses to identify, neutralize, and eliminate the invading organism. Neonates have an immature immune system and an impaired ability to effectively eliminate invading organisms. Preterm infants are at an even greater disadvantage than term infants. The younger the gestation, the higher the risk for infection and an adverse outcome.<br/> Click Next to continue.",
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition."
         },
-      ];
 
-      var updateContentArray0 = [
         {
-          time: "0.0",
+          time: "45",
           carry: "",
           event: "",
-          show: "",
+          show: "#topImgCnt2 .clickToEnlarge,.clickToEnlarge",
           hide: "",
-          transcript:
-            "That is correct. Baby Conrad's vital signs are normal. Click Next to continue.",
-        },
-      ];
-
-      var updateContentArray1 = [
-        {
-          time: "0.0",
-          carry: "",
-          event: "",
-          show: "",
-          hide: "",
-          transcript:
-            "Here is some feedback on your response. Baby Conrad’s vital signs are normal. Compare his vital signs with the normal vital signs for a neonate on the right and you will notice that Baby Conrad’s vital signs fall within these ranges. <br> Click Next to continue.",
+          transcript:"That said, in years past, antibiotics were frequently started even if the infant only had subtle signs of infection. Today, with the emergence of antibiotic- resistant organisms and a better understanding of the long-term impact of antibiotic overtreatment, the decision to start antibiotics should be based on careful evaluation of risk factors for infection, as well as the infant's clinical condition.",
+          animation: [
+            {
+              target: ".small_expand",
+              duration: "",
+              activity: {
+                display: "block",
+              },
+            },
+          ],
         },
       ];
 
@@ -634,20 +760,15 @@
         fnAudioFinishPageComp();
       }
 
-      var __dataXml;
-
       var audplayer = document.getElementById("audioplayer");
 
       $(document).ready(function () {
         //restrictBacknMenuOnAssistment();
         $(".clickToEnlarge").show();
         // $(".small_expand").show();
-        $(".small_expand1").show();
-        bindClickableHotspot();
         disableNextBtn();
         $(".clickToEnlarge").show();
         // $(".small_expand").show();
-        $(".small_expand1").show();
 
         var ele = document.getElementsByTagName("div");
 
@@ -676,57 +797,21 @@
         return array.indexOf(value) > -1;
       }
 
-      function fnPlaySectionAudio(gCurrentIndex) {
-        indexAudio = gCurrentIndex;
-
-        audioId = "audio_" + gCurrentIndex;
-
-        gAudioId = audioId;
-
-        fnHideShowAudioPlayer(false);
-
-        updateContentArray = eval("updateContentArray" + gCurrentIndex);
-
-        initAudioPlayer(gItemAudioPath[gCurrentIndex]);
-      }
-
       function fnCompletion() {
-        console.log("end");
-
         var _getCount1 = clickTabCount + clickTabCount1;
-
-        // if (_getCount1 >= 2) {
-
-        console.log("start new");
-
         enableNextBtn();
-
         $(".boxInst").show();
-
         fnAudioFinishItemComp();
-
-        // }
       }
-
       function fnOnAudioComplete() {
         if (gAudioId == "startAudio") {
-          console.log("start audio");
-
-          //   enableNextBtn();
-
-          //  fnAudioFinishItemComp();
-
-          // we need to replace this
-
-          //fnClick();
-
           audplayer.pause();
 
           audplayer.currentTime = 0;
 
           $(".clickToEnlarge").show();
           // $(".small_expand").show();
-          $(".small_expand1").show();
+
           enableNextBtn();
           fnDesiableNext(false);
           $(".boxInst").show();
@@ -738,9 +823,7 @@
           $(".boxInst").show();
           $(".clickToEnlarge").show();
           // $(".small_expand").show();
-          $(".small_expand1").show();
-
-          gCompPageArr.push("M1L0T1P12");
+          gCompPageArr.push("M1L0T1P12_1");
 
           fnAudioFinishItemComp();
 
@@ -748,106 +831,6 @@
 
           audplayer.currentTime = 0;
         }
-      }
-
-      var correctOptions = [0];
-
-      function bindClickableHotspot() {
-        console.log("clicked");
-
-        $(".option").addClass("aactive"); //.css({ 'cursor': 'pointer' });
-
-        $(".option")
-          .off()
-          .on("click", function () {
-            $(".option").removeClass("clicked");
-
-            $(this).addClass("clicked");
-
-            if ($(".option.clicked").length >= 1) {
-              $(".cSubmitBtn").addClass("active");
-
-              $(".cSubmitBtn.active")
-                .off()
-                .on("click", function () {
-                  submitClick();
-                });
-            } else {
-              $(".cSubmitBtn").removeClass("active");
-            }
-          });
-      }
-
-      function submitClick() {
-        tinCanWrapper.sendStatementData(
-          "answered",
-          "baby-conrad-postnatal-course",
-          "Baby Conrad - Postnatal Course - Now take a look at Baby Conrad's vital signs shortly after birth. Are they normal or abnormal?"
-        );
-
-        $(".cSubmitBtn.active").hide();
-
-        console.log("clicked");
-
-        // fnCompletion()
-
-        enableNextBtn();
-        fnDesiableNext(false);
-        gCompPageArr.push("M1L0T1P12");
-        // $(".leftCnt span.addcolor").addClass("yellowclr");
-
-        //	var selected = $('.clicked').length;
-
-        var incorrectCount = 0; //, correctCount = 0;
-
-        $(".option").each(function () {
-          if (
-            $(this).hasClass("clicked") &&
-            $.inArray($(this).index(), correctOptions) == -1
-          ) {
-            $(this).addClass("wrong");
-
-            incorrectCount++;
-          }
-
-          //else if($(this).hasClass('clicked') && ($.inArray($(this).index(), correctOptions) != -1)){
-
-          //	correctCount++;
-
-          //}
-
-          $(this).off(); //.removeClass('clicked');
-        });
-
-        $(correctOptions).each(function (i, val) {
-          $(".option").eq(val).addClass("correct");
-        });
-
-        // if (incorrectCount == 0 && correctCount== correctOptions.length) {
-
-        //     fnPlaySectionAudio(1);
-
-        // //    $('.downloadText').show();
-
-        // } else {
-
-        //     fnPlaySectionAudio(0);
-
-        // }
-
-        if (incorrectCount == 0) {
-          fnPlaySectionAudio(0);
-
-          // $('.downloadText').show();
-        } else {
-          fnPlaySectionAudio(1);
-        }
-
-        $(".option").off().removeClass("aactive"); //.css({'cursor':'default'});
-
-        $(".cSubmitBtn").removeClass("active");
-
-        $(".informationRight").show();
       }
 
       $(".small_expand")
@@ -867,31 +850,6 @@
           $(".modal").addClass("popupimg" + $(this).attr("click_id"));
 
           $(".modalTxtImg").attr("id", "imgPopup" + $(this).attr("click_id"));
-        });
-
-      $(".small_expand1")
-        .off()
-        .on("click", function () {
-          pauseAudio();
-
-          //audioReset();
-
-          $("#TabPopup5 .modal").show();
-
-          $("#TabPopup5 .sectionTop").addClass("blur");
-
-          $("#TabPopup5 .sectionContent").addClass("blur");
-          $(".boxInst").addClass("blur");
-
-          $(".modalTxtImg").attr("id", "imgPopup" + $(this).attr("click_id"));
-
-          $(".modalTextBottom").hide();
-
-          $("#ModalTextBottom" + $(this).attr("click_id")).show();
-
-          $(".modalContent").addClass("maxBot");
-
-          $(".modalContent").removeClass("maxBot0");
         });
 
       $(".closepopup, .modalclose")

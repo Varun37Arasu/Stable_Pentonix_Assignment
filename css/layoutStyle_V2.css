@@ -85,6 +85,8 @@ body{
 	width: 100%;
 	height: 100%;
 	background: url("../media/images/player/common/bg.png") no-repeat;
+	background-color: #ffffff94;
+    background-blend-mode: hue;
 	  background-size: auto;
 	left: 0px;
 	top:65px;
@@ -94,9 +96,9 @@ body{
 	cursor: default;
 	background-size: 100%;
   }
-.contentContainer.sugar{
-	background: url("../media/images/player/common/bg_sugar.png") no-repeat;
-}
+/* .contentContainer.sugar{
+	background: url("../media/images/player/common/background.png") no-repeat;
+} */
 
 #contentFrame{
 	position: relative;
